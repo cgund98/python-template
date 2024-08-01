@@ -1,6 +1,6 @@
 # Python Project
 
-Template for miscellaneous projects
+Template for miscellaneous projects. Just for fun, we created a submodule for interacting with the public [Cat Facts API](https://catfact.ninja/#/Breeds/getBreeds). This should help to demonstrate how this template works in practice.g
 
 ## Project Structure
 While there is no single optimal project structure, I typically prefer a domain-driven layout.
@@ -42,6 +42,12 @@ poetry install
 
 # Run program.
 poetry run python -m python_template
+```
+
+### Unit Tests
+
+```bash
+poetry run pytest
 ```
 
 ### Linting and Formatting
